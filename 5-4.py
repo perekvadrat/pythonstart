@@ -12,4 +12,4 @@ def revers_input(n):
     num = input('---> ')
     return revers_input(n-1) + ' ' + num
 
-print(revers_input(1))
+print(revers_input(11))
